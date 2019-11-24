@@ -11,6 +11,9 @@ def printMap(side):
 
         print()
 
+
+
+
 def run():
   global playerX, playerY
   # Lay lenh cua ng dung tu console
