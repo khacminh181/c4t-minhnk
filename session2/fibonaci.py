@@ -1,4 +1,4 @@
-def fibonaci(n):
+def fibonacci(n):
   if (n < 2):
     return n
   else:
@@ -10,12 +10,12 @@ def fibonaci(n):
       b = c 
     return c
 
-print(fibonaci(4))
+print(fibonacci(4))
 
-def fibonaci_recursion(n):
+def fibonacci_recursion(n):
   if (n < 2):
     return n
   else:
-    return fibonaci_recursion(n-1) + fibonaci_recursion(n-2)
+    return fibonacci_recursion(n-1) + fibonacci_recursion(n-2)
 
-print(fibonaci_recursion(4))
+print(fibonacci_recursion(4))
